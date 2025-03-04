@@ -1,3 +1,7 @@
+## 1. Python Fundamentals
+Data Types & Variables, Control Structures, Functions & Modules,
+Object-Oriented Programming, Error & Exception Handling, File Handling
+
 **What is Python?**
 * Python is an open source, high level, interpreted programming language. 
 * It was developed by “Guido Van Rossum” and released in the year 1991.
@@ -237,7 +241,7 @@ print(10 + 5)
 **Operator Types**
 Python divides the operators in the following groups:
 
-* Arithmetic operators
+* Arithmetic operators 
 * Assignment operators
 * Comparison operators
 * Logical operators
@@ -325,25 +329,9 @@ print(6 & 3)
 --------------------
 2 = 0000000000000010
 ====================
-
-|	OR	Sets each bit to 1 if one of two bits is 1	x | y
-print(6 | 3)
-6 = 0000000000000110
-3 = 0000000000000011
---------------------
-7 = 0000000000000111
-====================
-
-^	XOR	Sets each bit to 1 if only one of two bits is 1	x ^ y
-print(6 ^ 3)
-6 = 0000000000000110
-3 = 0000000000000011
---------------------
-5 = 0000000000000101
-====================
 ~~~
 
-**Python Conditions and If statements**
+**Python Conditional statements**
 * An "if statement" is written by using the if keyword.
 * Indentation - Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.
 
@@ -382,7 +370,7 @@ else:
   print("a is greater than b")
 ~~~
 
-**Loops**
+**Looping statements**
 * Looping is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
 **1. For Loop
@@ -455,7 +443,7 @@ for x in range(2, 30, 3):
   print(x)
 ~~~
 
-**Nested Loops**
+**Nested Loops XXX**
 * A nested loop is a loop inside a loop.
 * The "inner loop" will be executed one time for each iteration of the "outer loop".
 
@@ -516,3 +504,4 @@ while i < 6:
     continue
   print(i)
 ~~~
+
